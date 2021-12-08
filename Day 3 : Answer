@@ -1,0 +1,10 @@
+// not finish
+
+#include <stdio.h>
+
+int main()
+{
+    int input =0
+
+    return 0;
+}
