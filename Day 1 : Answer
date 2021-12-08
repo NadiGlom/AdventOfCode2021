@@ -1,0 +1,19 @@
+#Je pense c'est day 1
+
+int main()
+{
+   int depth=0;
+   int depth1=0;
+   int nbr=0;
+   scanf("%d",&depth);
+   while(depth!=0){
+        if(depth>depth1){
+            nbr=nbr+1;
+        }
+        depth1=depth;
+        scanf("%d",&depth);
+   
+   }
+   nbr=nbr-1;
+   printf("%d",nbr);
+}
